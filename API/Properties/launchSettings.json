@@ -22,7 +22,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "api/pontosturisticos",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
