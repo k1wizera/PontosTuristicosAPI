@@ -1,5 +1,6 @@
 using Infraestrutura;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 namespace API
 {
@@ -20,6 +21,10 @@ namespace API
             services.AddDbContext<ContextoDeArmazenamento>(options =>
             {
                 options.UseSqlServer(_config.GetConnectionString("DefaultConnection"));
+            });
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "WebAPIv5", Version = "v1" });
             });
         }
 
