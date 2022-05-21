@@ -9,9 +9,11 @@ namespace API
         {
             var host = CreateHostBuilder(args).Build();
 
-            /* MigrateAsync, vai verificar se existe alguma migration pendente,
+            /* 
+            MigrateAsync, vai verificar se existe alguma migration pendente,
             caso exista ele vai rodar ela, e tambem vai verificar se o banco existe,
-            no caso de não existir ele vai criar*/
+            no caso de não existir ele vai criar
+            */
 
             using (var scope = host.Services.CreateScope())
             {
@@ -25,10 +27,9 @@ namespace API
                 catch (Exception ex)
                 {
                     var logger = loggerFactory.CreateLogger<Program>();
-                    logger.LogError(ex, "An error occured during migration");
+                    logger.LogError(ex, "Um erro aconteceu durante a migração");
                 }
             }
-
             host.Run();
         }
 

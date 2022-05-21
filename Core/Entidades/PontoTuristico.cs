@@ -13,13 +13,13 @@ namespace Core.Entidades
         [Required(ErrorMessage = "A Descrição é obrigatória.")]
         public string Descricao { get; set; }
 
-        [Required(ErrorMessage = "O endereço é obrigatório.")]
+        [Required(ErrorMessage = "O Endereço é obrigatório.")]
         public string Endereco { get; set; }
 
-        [Required(ErrorMessage = "A cidade é obrigatória.")]
+        [Required(ErrorMessage = "A Cidade é obrigatória.")]
         public string Cidade { get; set; }
 
-        [Required(ErrorMessage = "O estado é obrigatório.")]
+        [Required(ErrorMessage = "O Estado é obrigatório.")]
         public string Estado { get; set; }
     }
 }
