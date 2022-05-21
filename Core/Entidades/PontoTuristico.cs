@@ -21,5 +21,6 @@ namespace Core.Entidades
 
         [Required(ErrorMessage = "O Estado é obrigatório.")]
         public string Estado { get; set; }
+        public DateTime DatadeInclusao { get; set; } = DateTime.Now;
     }
 }
