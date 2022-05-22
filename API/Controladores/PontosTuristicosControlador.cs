@@ -34,8 +34,7 @@ namespace API.Controllers
         [HttpPost]
         public async Task<ActionResult<PontoTuristico>> Criar(PontoTuristico pontoturistico)
         {
-            await _pontoturistico.CriarPontoTuristico(pontoturistico);
-            return CreatedAtAction("Get", new { id = pontoturistico.Id }, pontoturistico);
+            return Ok(await _pontoturistico.CriarPontoTuristico(pontoturistico));
         }
 
         [HttpPut("{id}")]

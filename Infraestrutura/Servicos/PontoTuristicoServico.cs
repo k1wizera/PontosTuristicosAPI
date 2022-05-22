@@ -19,8 +19,8 @@ namespace Infraestrutura.Servicos
 
         public async Task<PontoTuristico> CriarPontoTuristico(PontoTuristico pontoturistico)
         {
-            _armazenamento.Set<PontoTuristico>().Add(pontoturistico);
-            await _armazenamento.SaveChangesAsync();
+            await _armazenamento.Set<PontoTuristico>().AddAsync(pontoturistico);
+             _armazenamento.SaveChanges();
             return pontoturistico;
         }
 
