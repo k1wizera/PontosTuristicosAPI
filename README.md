@@ -40,7 +40,7 @@ $ git clone https://github.com/k1wizera/PontosTuristicosAPI.git
 $ dotnet restore
 $ dotnet run --project API
 
-# Abra outro terminal do VSCode e acesse a pasta com a aplicação front pelo terminal
+# Abra outro terminal do VSCode e acesse a pasta com a aplicação front 
 $ cd PontosTuristicosFrontAPP
 
 # Instale as dependências
