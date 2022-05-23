@@ -195,7 +195,7 @@ function App() {
           <div className="content">
             <section className="form"><FiUserPlus size="105" color="#17202a" /></section>
             <form>
-              <input placeholder="Digite o Nome do Ponto Turístico" type="text" className="form-control" required name="nome" onChange={handleChange} />
+              <input placeholder="Insira o Nome do Ponto Turístico" type="text" className="form-control" required name="nome" onChange={handleChange} />
               <label><strong>Localização: </strong></label>
               <br />
               <label>Estado: </label>
@@ -230,8 +230,8 @@ function App() {
                 <option value="TO">Tocantins</option>
                 <option value="EX">Estrangeiro</option>
               </select>
-              <input placeholder="Digite o Nome da cidade onde fica o Ponto Turístico" type="text" className="form-control" required name="cidade" onChange={handleChange} />
-              <input placeholder="Digite o endereço ou ponto de referência do Ponto Turístico" type="text" className="form-control" required name="endereco" onChange={handleChange} />
+              <input placeholder="Insira o Nome da cidade onde fica o Ponto Turístico" type="text" className="form-control" required name="cidade" onChange={handleChange} />
+              <input placeholder="Insira o endereço ou ponto de referência do Ponto Turístico" type="text" className="form-control" required name="endereco" onChange={handleChange} />
               <input placeholder="Adicione uma descrição de até 100 caracteres" type="text" className="form-control" required name="descricao" onChange={handleChange} />
 
             </form>
