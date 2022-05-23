@@ -21,7 +21,7 @@ Aplicação desenvolvida com React Native consumindo a API em .NET 6.
 
 
 # Demonstração
-![GIF](gitHub/pontosturisticos.gif)
+![GIF]([gitHub/pontosturisticos.gif](https://github.com/k1wizera/PontosTuristicosAPI/blob/master/github/pontosturisticos.gif))
 
 
 
@@ -58,4 +58,4 @@ $ npm start
  Caso seja necessário abra o arquivo appsettings.json dentro da pasta API e configure a sua <strong>DefaultConnection</strong> com a <strong>Connection String</strong> do seu Banco de Dados relacional.
 
 
- ![IMG](gitHub/db.jpeg)
+ ![IMG]([gitHub/db.jpeg](https://github.com/k1wizera/PontosTuristicosAPI/blob/master/github/db.jpeg))
