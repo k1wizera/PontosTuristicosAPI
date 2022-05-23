@@ -14,13 +14,13 @@ namespace Infraestrutura.Servicos
 
         public async Task<IReadOnlyList<PontoTuristico>> ListarPontosTuristicos()
         {
-            return await _armazenamento.Set<PontoTuristico>().ToListAsync();
+            return await _armazenamento.Set<PontoTuristico>().OrderByDescending(a => a.DatadeInclusao).ToListAsync();
         }
 
         public async Task<PontoTuristico> CriarPontoTuristico(PontoTuristico pontoturistico)
         {
             await _armazenamento.Set<PontoTuristico>().AddAsync(pontoturistico);
-             _armazenamento.SaveChanges();
+            _armazenamento.SaveChanges();
             return pontoturistico;
         }
 
