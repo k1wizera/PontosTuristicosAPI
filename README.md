@@ -1,7 +1,7 @@
 # PontosTuristicosWeb
 
 # Sobre
-Aplicação desenvolvida com React Native consumindo a API em .NET 6.
+Aplicação desenvolvida com React consumindo a API em .NET 6.
 
 
 
@@ -26,7 +26,7 @@ Aplicação desenvolvida com React Native consumindo a API em .NET 6.
 
 
 # Pré-requisitos
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [.NET6](https://dotnet.microsoft.com/en-us/download), [VSCode](https://code.visualstudio.com/) e um Banco de Dados relacional de sua preferência.
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas: [Git](https://git-scm.com/), [Node.js](https://nodejs.org/en/), [.NET6](https://dotnet.microsoft.com/en-us/download), [VSCode](https://code.visualstudio.com/) e [SQL Server](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads).
 
 
 
