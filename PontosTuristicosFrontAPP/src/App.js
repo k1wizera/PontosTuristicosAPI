@@ -79,6 +79,7 @@ function App() {
         setData(data.concat(response.data));
         setUpdateData(true);
         abrirFecharModalIncluir();
+        window.location.reload(true);
       }).catch(error => {
         console.log(error);
       })
@@ -99,6 +100,7 @@ function App() {
       });
       setUpdateData(true);
       abrirFecharModalEditar();
+      window.location.reload(true);
     }).catch(error => {
       console.log(error);
     })
@@ -111,6 +113,7 @@ function App() {
         setData(data.filter(PontosTuristicosControlador => PontosTuristicosControlador.id !== response.data));
         setUpdateData(true);
         abrirFecharModalExcluir();
+        window.location.reload(true);
       }).catch(error => {
         console.log(error);
       })
