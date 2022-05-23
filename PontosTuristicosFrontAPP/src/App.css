@@ -9,6 +9,7 @@
 
 body {
   font: 300 14px Roboto, sans-serif;
+  background: #d4d4e2;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -61,11 +62,10 @@ form input {
   font-size: 16px;
   line-height: 60px;
   transition: filter 0.3s;
-  padding: 10 24px;
+  padding: 0 24px;
   width: 250px;
   margin-left: auto;
   margin-top: 0;
-
 }
 
 #b1:hover {

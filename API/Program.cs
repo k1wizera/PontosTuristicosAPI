@@ -12,7 +12,7 @@ namespace API
             /* 
             MigrateAsync, vai verificar se existe alguma migration pendente,
             caso exista ele vai rodar ela, e tambem vai verificar se o banco existe,
-            no caso de n„o existir ele vai criar
+            no caso de n√£o existir ele vai criar
             */
 
             using (var scope = host.Services.CreateScope())
@@ -27,7 +27,7 @@ namespace API
                 catch (Exception ex)
                 {
                     var logger = loggerFactory.CreateLogger<Program>();
-                    logger.LogError(ex, "Um erro aconteceu durante a migraÁ„o");
+                    logger.LogError(ex, "Um erro aconteceu durante a migra√ß√£o");
                 }
             }
             host.Run();
