@@ -36,7 +36,8 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 $ git clone https://github.com/k1wizera/PontosTuristicosAPI.git
 
 # Abra a pasta do projeto com o VSCode
-# Abra o terminal e execute a API
+# Abra o termina, instale as dependências e execute a API
+$ dotnet restore
 $ dotnet run --project API
 
 # Acesse a pasta com a aplicação front pelo terminal
