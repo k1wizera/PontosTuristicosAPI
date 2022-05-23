@@ -197,6 +197,7 @@ function App() {
               <br />
               <label>Estado: </label>
               <select input className="form-control" required name="estado" onChange={handleChange}>
+                <option value={null}>--</option>
                 <option value="AC">Acre</option>
                 <option value="AL">Alagoas</option>
                 <option value="AP">Amapá</option>
